@@ -1,4 +1,11 @@
 # Dream Advanced Client (no auth)
 
-## READ:
-Original source from: https://github.com/justjarfile/dream-advanced-client/
+
+
+
+
+
+## Credits:
+- justjarfile for the original source: https://github.com/justjarfile/dream-advanced-client/
+- ChatGPT for some stuff on the auth.cpp file LOL
+
