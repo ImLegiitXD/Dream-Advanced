@@ -1,6 +1,6 @@
 # Dream Advanced Client (no auth)
 
-
+Note that theres some bugs on this.
 
 
 
