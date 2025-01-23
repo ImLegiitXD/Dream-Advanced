@@ -1,0 +1,894 @@
+' ******************************************************************************
+' Header: VirtualizerSDK64.inc
+' Description: PowerBasic64 macros definitions
+'
+' Author/s: Oreans Technologies 
+' (c) 2021 Oreans Technologies
+'
+' --- File generated automatically from Oreans VM Generator (14/5/2021) ---
+' ******************************************************************************
+
+' ******************************************************************************
+'                                 Macros definition
+' ******************************************************************************
+
+MACRO VIRTUALIZER_TIGER_WHITE_START
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x67
+  !db 0x00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_TIGER_WHITE_END
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0xF7
+  !db 0x01
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_TIGER_RED_START
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x68
+  !db 0x00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_TIGER_RED_END
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0xF8
+  !db 0x01
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_TIGER_BLACK_START
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x69
+  !db 0x00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_TIGER_BLACK_END
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0xF9
+  !db 0x01
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_FISH_WHITE_START
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x6B
+  !db 0x00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_FISH_WHITE_END
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0xFB
+  !db 0x01
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_FISH_RED_START
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x6D
+  !db 0x00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_FISH_RED_END
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0xFD
+  !db 0x01
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_FISH_BLACK_START
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x6F
+  !db 0x00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_FISH_BLACK_END
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0xFF
+  !db 0x01
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_PUMA_WHITE_START
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x71
+  !db 0x00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_PUMA_WHITE_END
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x01
+  !db 0x02
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_PUMA_RED_START
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x73
+  !db 0x00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_PUMA_RED_END
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x03
+  !db 0x02
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_PUMA_BLACK_START
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x75
+  !db 0x00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_PUMA_BLACK_END
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x05
+  !db 0x02
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_SHARK_WHITE_START
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x77
+  !db 0x00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_SHARK_WHITE_END
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x07
+  !db 0x02
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_SHARK_RED_START
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x79
+  !db 0x00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_SHARK_RED_END
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x09
+  !db 0x02
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_SHARK_BLACK_START
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x7B
+  !db 0x00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_SHARK_BLACK_END
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x0B
+  !db 0x02
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_DOLPHIN_WHITE_START
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x87
+  !db 0x00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_DOLPHIN_WHITE_END
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x17
+  !db 0x02
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_DOLPHIN_RED_START
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x89
+  !db 0x00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_DOLPHIN_RED_END
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x19
+  !db 0x02
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_DOLPHIN_BLACK_START
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x8B
+  !db 0x00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_DOLPHIN_BLACK_END
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x1B
+  !db 0x02
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_EAGLE_WHITE_START
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x93
+  !db 0x00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_EAGLE_WHITE_END
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x23
+  !db 0x02
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_EAGLE_RED_START
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x95
+  !db 0x00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_EAGLE_RED_END
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x25
+  !db 0x02
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_EAGLE_BLACK_START
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x97
+  !db 0x00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_EAGLE_BLACK_END
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x27
+  !db 0x02
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_LION_WHITE_START
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0xA1
+  !db 0x00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_LION_WHITE_END
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x31
+  !db 0x02
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_LION_RED_START
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0xA3
+  !db 0x00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_LION_RED_END
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x33
+  !db 0x02
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_LION_BLACK_START
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0xA5
+  !db 0x00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_LION_BLACK_END
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x35
+  !db 0x02
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_MUTATE_ONLY_START
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x10
+  !db 0x00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+
+MACRO VIRTUALIZER_MUTATE_ONLY_END
+  !db &HEB
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+  !db 0x11
+  !db 0x00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H00
+  !db &H43
+  !db &H56
+  !db &H20
+  !db &H20
+END MACRO
+

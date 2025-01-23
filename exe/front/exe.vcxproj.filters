@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="back\sdk.cpp">
+      <Filter>back</Filter>
+    </ClCompile>
+    <ClCompile Include="front\client.cpp">
+      <Filter>front</Filter>
+    </ClCompile>
+    <ClCompile Include="front\mapper\mapper.cpp">
+      <Filter>front\3-mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="front\core\core.cpp">
+      <Filter>front\1-core</Filter>
+    </ClCompile>
+    <ClCompile Include="front\mapper\shellcode\shellcode.cpp">
+      <Filter>front\3-mapper\1-shellcode</Filter>
+    </ClCompile>
+    <ClCompile Include="front\security\callbacks\callbacks.cpp">
+      <Filter>front\2-security\1-callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="front\security\checks\checks.cpp">
+      <Filter>front\2-security\2-checks</Filter>
+    </ClCompile>
+    <ClCompile Include="front\security\report\report.cpp">
+      <Filter>front\2-security\3-report</Filter>
+    </ClCompile>
+    <ClCompile Include="entry_point.cpp" />
+    <ClCompile Include="front\core\auth\auth.cpp">
+      <Filter>front\1-core\2-auth</Filter>
+    </ClCompile>
+    <ClCompile Include="front\core\menu\menu.cpp">
+      <Filter>front\1-core\1-menu</Filter>
+    </ClCompile>
+    <ClCompile Include="front\core\ipc\ipc.cpp">
+      <Filter>front\1-core\3-ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="front\security\security.hpp">
+      <Filter>front\2-security</Filter>
+    </ClCompile>
+    <ClCompile Include="front\core\menu\imgui\imgui.cpp">
+      <Filter>front\1-core\1-menu\1-imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="front\core\menu\imgui\imgui_draw.cpp">
+      <Filter>front\1-core\1-menu\1-imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="front\core\menu\imgui\imgui_tables.cpp">
+      <Filter>front\1-core\1-menu\1-imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="front\core\menu\imgui\imgui_widgets.cpp">
+      <Filter>front\1-core\1-menu\1-imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="front\core\menu\imgui\backends\imgui_impl_dx10.cpp">
+      <Filter>front\1-core\1-menu\1-imgui\1-backends</Filter>
+    </ClCompile>
+    <ClCompile Include="front\core\menu\imgui\backends\imgui_impl_win32.cpp">
+      <Filter>front\1-core\1-menu\1-imgui\1-backends</Filter>
+    </ClCompile>
+    <ClCompile Include="front\core\exit\exit.cpp">
+      <Filter>front\1-core\4-exit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="back">
+      <UniqueIdentifier>{164fe6d4-a4b5-413b-8b6a-56ae467a6160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front">
+      <UniqueIdentifier>{58ae8fef-16a7-4bd5-8b06-aacd1b4b1dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\1-core">
+      <UniqueIdentifier>{783809bc-7896-44af-bbc6-2130bda9d6a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\2-security">
+      <UniqueIdentifier>{4d2be878-3556-4c86-acae-af145400c573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\2-security\1-callbacks">
+      <UniqueIdentifier>{07912714-8add-47dd-8835-dbd6b5a1e5aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\2-security\2-checks">
+      <UniqueIdentifier>{4dab5c06-9cd3-48fa-918e-ddab92c40148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\3-mapper">
+      <UniqueIdentifier>{5d2a5b1d-12e7-402f-b391-0a7841be0e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\3-mapper\1-shellcode">
+      <UniqueIdentifier>{3747200b-aa9a-4e43-a469-372a03febed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\2-security\3-report">
+      <UniqueIdentifier>{fed9539b-8c03-418a-b463-f86b7857aabb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="back\1-misc">
+      <UniqueIdentifier>{4176c5ab-f226-48b4-b48d-5bc89593ef84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\1-core\3-ipc">
+      <UniqueIdentifier>{c7a61c16-6af1-486e-ae04-c3b708121b11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="back\1-misc\1-xor">
+      <UniqueIdentifier>{2d1fb1be-5018-4e7b-bda3-cb2e82a758c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="back\1-misc\2-sha">
+      <UniqueIdentifier>{97b6b412-46d4-4196-b90c-5f1661028dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\1-core\2-auth">
+      <UniqueIdentifier>{2fe95203-041e-4608-ac04-0610a78a75f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\1-core\1-menu">
+      <UniqueIdentifier>{61e214fc-bf52-4360-9071-8082f1295292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\1-core\1-menu\1-imgui">
+      <UniqueIdentifier>{e66ca29f-b2c4-4ab7-84b1-4110869e1ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\1-core\1-menu\1-imgui\1-backends">
+      <UniqueIdentifier>{c79262bd-0a5d-4833-87ec-54f636accd5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\1-core\1-menu\1-imgui\2-fonts">
+      <UniqueIdentifier>{51b81af9-7f35-441e-9903-d1a471506bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\1-core\4-exit">
+      <UniqueIdentifier>{c1423274-811c-47bd-b62d-165934e3f44e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="back\sdk.hpp">
+      <Filter>back</Filter>
+    </ClInclude>
+    <ClInclude Include="front\client.hpp">
+      <Filter>front</Filter>
+    </ClInclude>
+    <ClInclude Include="front\mapper\mapper.hpp">
+      <Filter>front\3-mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="front\core\core.hpp">
+      <Filter>front\1-core</Filter>
+    </ClInclude>
+    <ClInclude Include="back\misc\include.hpp">
+      <Filter>back\1-misc</Filter>
+    </ClInclude>
+    <ClInclude Include="back\misc\sha\sha.hpp">
+      <Filter>back\1-misc\2-sha</Filter>
+    </ClInclude>
+    <ClInclude Include="back\misc\xor\xor.hpp">
+      <Filter>back\1-misc\1-xor</Filter>
+    </ClInclude>
+    <ClInclude Include="front\security\security.h">
+      <Filter>front\2-security</Filter>
+    </ClInclude>
+    <ClInclude Include="front\core\menu\imgui\imconfig.h">
+      <Filter>front\1-core\1-menu\1-imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="front\core\menu\imgui\imgui.h">
+      <Filter>front\1-core\1-menu\1-imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="front\core\menu\imgui\imgui_include.h">
+      <Filter>front\1-core\1-menu\1-imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="front\core\menu\imgui\imgui_internal.h">
+      <Filter>front\1-core\1-menu\1-imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="front\core\menu\imgui\imstb_rectpack.h">
+      <Filter>front\1-core\1-menu\1-imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="front\core\menu\imgui\imstb_textedit.h">
+      <Filter>front\1-core\1-menu\1-imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="front\core\menu\imgui\imstb_truetype.h">
+      <Filter>front\1-core\1-menu\1-imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="front\core\menu\imgui\fonts\fonts.hpp">
+      <Filter>front\1-core\1-menu\1-imgui\2-fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="front\core\menu\imgui\backends\imgui_impl_dx10.h">
+      <Filter>front\1-core\1-menu\1-imgui\1-backends</Filter>
+    </ClInclude>
+    <ClInclude Include="front\core\menu\imgui\backends\imgui_impl_win32.h">
+      <Filter>front\1-core\1-menu\1-imgui\1-backends</Filter>
+    </ClInclude>
+    <ClInclude Include="front\core\menu\imgui\imgui_custom_widgets.hpp">
+      <Filter>front\1-core\1-menu\1-imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

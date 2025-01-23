@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="entry_point.cpp" />
+    <ClCompile Include="back\sdk.cpp">
+      <Filter>back</Filter>
+    </ClCompile>
+    <ClCompile Include="back\misc\minhook\src\hde\hde32.c">
+      <Filter>back\1-misc\4-minhook\2-src\1-hde</Filter>
+    </ClCompile>
+    <ClCompile Include="back\misc\minhook\src\hde\hde64.c">
+      <Filter>back\1-misc\4-minhook\2-src\1-hde</Filter>
+    </ClCompile>
+    <ClCompile Include="back\misc\minhook\src\buffer.c">
+      <Filter>back\1-misc\4-minhook\2-src</Filter>
+    </ClCompile>
+    <ClCompile Include="back\misc\minhook\src\hook.c">
+      <Filter>back\1-misc\4-minhook\2-src</Filter>
+    </ClCompile>
+    <ClCompile Include="back\misc\minhook\src\trampoline.c">
+      <Filter>back\1-misc\4-minhook\2-src</Filter>
+    </ClCompile>
+    <ClCompile Include="back\misc\imgui\imgui.cpp">
+      <Filter>back\1-misc\3-imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="back\misc\imgui\imgui_draw.cpp">
+      <Filter>back\1-misc\3-imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="back\misc\imgui\imgui_tables.cpp">
+      <Filter>back\1-misc\3-imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="back\misc\imgui\imgui_widgets.cpp">
+      <Filter>back\1-misc\3-imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="back\misc\imgui\backends\imgui_impl_win32.cpp">
+      <Filter>back\1-misc\3-imgui\1-backends</Filter>
+    </ClCompile>
+    <ClCompile Include="back\misc\imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>back\1-misc\3-imgui\1-backends</Filter>
+    </ClCompile>
+    <ClCompile Include="front\features\features.cpp">
+      <Filter>front\2-features</Filter>
+    </ClCompile>
+    <ClCompile Include="front\mapper\mapper.cpp">
+      <Filter>front\3-mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="front\client.cpp">
+      <Filter>front</Filter>
+    </ClCompile>
+    <ClCompile Include="front\hooks\hooks.cpp">
+      <Filter>front\1-hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="front\features\combat\fake_lag.cpp">
+      <Filter>front\2-features\1-combat</Filter>
+    </ClCompile>
+    <ClCompile Include="front\hooks\swap_buffers\swap_buffers.cpp">
+      <Filter>front\1-hooks\5-swap_buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="front\hooks\clear\clear.cpp">
+      <Filter>front\1-hooks\2-clear</Filter>
+    </ClCompile>
+    <ClCompile Include="front\mapper\minecraft\minecraft.cpp">
+      <Filter>front\3-mapper\1-minecraft</Filter>
+    </ClCompile>
+    <ClCompile Include="front\mapper\settings\settings.cpp">
+      <Filter>front\3-mapper\2-settings</Filter>
+    </ClCompile>
+    <ClCompile Include="front\mapper\timer\timer.cpp">
+      <Filter>front\3-mapper\3-timer</Filter>
+    </ClCompile>
+    <ClCompile Include="front\mapper\world\world.cpp">
+      <Filter>front\3-mapper\6-world</Filter>
+    </ClCompile>
+    <ClCompile Include="front\mapper\player\player.cpp">
+      <Filter>front\3-mapper\7-player</Filter>
+    </ClCompile>
+    <ClCompile Include="front\mapper\vec3\vec3.cpp">
+      <Filter>front\3-mapper\12-vec3</Filter>
+    </ClCompile>
+    <ClCompile Include="front\mapper\render_manager\render_manager.cpp">
+      <Filter>front\3-mapper\5-render_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="front\mapper\axis_aligned_bb\axis_aligned_bb.cpp">
+      <Filter>front\3-mapper\8-axis_aligned_bb</Filter>
+    </ClCompile>
+    <ClCompile Include="front\mapper\moving_object_position\moving_object_position.cpp">
+      <Filter>front\3-mapper\9-moving_object_position</Filter>
+    </ClCompile>
+    <ClCompile Include="front\hooks\get_time\get_time.cpp">
+      <Filter>front\1-hooks\1-get_time</Filter>
+    </ClCompile>
+    <ClCompile Include="front\hooks\send\send.cpp">
+      <Filter>front\1-hooks\6-send</Filter>
+    </ClCompile>
+    <ClCompile Include="front\features\visual\visual.cpp">
+      <Filter>front\2-features\2-visual</Filter>
+    </ClCompile>
+    <ClCompile Include="front\features\visual\player_esp_3d.cpp">
+      <Filter>front\2-features\2-visual</Filter>
+    </ClCompile>
+    <ClCompile Include="front\features\visual\player_esp_2d.cpp">
+      <Filter>front\2-features\2-visual</Filter>
+    </ClCompile>
+    <ClCompile Include="front\features\combat\auto_click.cpp">
+      <Filter>front\2-features\1-combat</Filter>
+    </ClCompile>
+    <ClCompile Include="front\features\combat\aim_assist.cpp">
+      <Filter>front\2-features\1-combat</Filter>
+    </ClCompile>
+    <ClCompile Include="front\mapper\gui_screen\gui_screen.cpp">
+      <Filter>front\3-mapper\4-gui_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="front\features\visual\tracers.cpp">
+      <Filter>front\2-features\2-visual</Filter>
+    </ClCompile>
+    <ClCompile Include="front\features\combat\reach.cpp">
+      <Filter>front\2-features\1-combat</Filter>
+    </ClCompile>
+    <ClCompile Include="front\features\combat\velocity.cpp">
+      <Filter>front\2-features\1-combat</Filter>
+    </ClCompile>
+    <ClCompile Include="front\features\util\bridge_assist.cpp">
+      <Filter>front\2-features\3-util</Filter>
+    </ClCompile>
+    <ClCompile Include="front\hooks\atan_2\atan_2.cpp">
+      <Filter>front\1-hooks\3-atan_2</Filter>
+    </ClCompile>
+    <ClCompile Include="front\features\visual\nametags.cpp">
+      <Filter>front\2-features\2-visual</Filter>
+    </ClCompile>
+    <ClCompile Include="front\features\visual\chams.cpp">
+      <Filter>front\2-features\2-visual</Filter>
+    </ClCompile>
+    <ClCompile Include="front\mapper\item\item.cpp">
+      <Filter>front\3-mapper\11-item</Filter>
+    </ClCompile>
+    <ClCompile Include="front\mapper\item_stack\item_stack.cpp">
+      <Filter>front\3-mapper\10-item_stack</Filter>
+    </ClCompile>
+    <ClCompile Include="front\features\visual\block_esp.cpp">
+      <Filter>front\2-features\2-visual</Filter>
+    </ClCompile>
+    <ClCompile Include="front\features\util\fast_place.cpp">
+      <Filter>front\2-features\3-util</Filter>
+    </ClCompile>
+    <ClCompile Include="front\features\visual\array_list.cpp">
+      <Filter>front\2-features\2-visual</Filter>
+    </ClCompile>
+    <ClCompile Include="front\features\util\speed.cpp">
+      <Filter>front\2-features\3-util</Filter>
+    </ClCompile>
+    <ClCompile Include="front\features\combat\backtrack.cpp">
+      <Filter>front\2-features\1-combat</Filter>
+    </ClCompile>
+    <ClCompile Include="front\hooks\rotate\rotate.cpp">
+      <Filter>front\1-hooks\4-rotate</Filter>
+    </ClCompile>
+    <ClCompile Include="front\features\util\sprint.cpp">
+      <Filter>front\2-features\3-util</Filter>
+    </ClCompile>
+    <ClCompile Include="front\features\combat\auto_jump.cpp">
+      <Filter>front\2-features\1-combat</Filter>
+    </ClCompile>
+    <ClCompile Include="front\hooks\recv\recv.cpp">
+      <Filter>front\1-hooks\7-recv</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="back">
+      <UniqueIdentifier>{9556a923-06ec-40f1-95ad-e564cb956efb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="back\1-misc">
+      <UniqueIdentifier>{2f01eba0-da8f-47d7-aa13-891c0038bdea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="back\1-misc\1-xor">
+      <UniqueIdentifier>{b9a51e63-a73e-4843-9c48-7b422af37fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="back\1-misc\2-sha">
+      <UniqueIdentifier>{96246614-541d-4f2f-ab26-888a074cbc24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="back\1-misc\4-minhook">
+      <UniqueIdentifier>{c27b6af3-2f77-45e9-a4e3-5038f5713bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="back\1-misc\4-minhook\1-include">
+      <UniqueIdentifier>{5246497b-d30c-4f86-b702-cfa00238a58c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="back\1-misc\4-minhook\2-src">
+      <UniqueIdentifier>{f9aff8f9-c68f-42a5-8781-c9039338d54c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="back\1-misc\4-minhook\2-src\1-hde">
+      <UniqueIdentifier>{aa13990e-0430-4c94-b9fd-7649e67ed06b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="back\1-misc\3-imgui">
+      <UniqueIdentifier>{aa9db883-9c7e-40e4-89ac-0def2ecd2edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="back\1-misc\3-imgui\1-backends">
+      <UniqueIdentifier>{7cf69dca-6a14-4c9c-955c-62b0b87f1592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="back\1-misc\3-imgui\2-fonts">
+      <UniqueIdentifier>{373656b8-1d0d-4e83-9744-520775b54165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front">
+      <UniqueIdentifier>{b12df912-7d4a-4ecd-9605-c652cdba5955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\2-features">
+      <UniqueIdentifier>{192ed704-9a3f-4dab-b877-b956c49740b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\2-features\1-combat">
+      <UniqueIdentifier>{885f10f0-f27d-4613-a4c1-dafec5a96414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\2-features\2-visual">
+      <UniqueIdentifier>{28358032-a460-4fa3-9eb7-4694723becd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\2-features\3-util">
+      <UniqueIdentifier>{1777b7d6-8eee-4070-8b95-011cf49a80ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\3-mapper">
+      <UniqueIdentifier>{34a462e9-ef67-4efd-a940-0de0999faa46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\3-mapper\1-minecraft">
+      <UniqueIdentifier>{e6eacb4f-880f-4fc7-b12b-0d5e2bfacf7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\3-mapper\2-settings">
+      <UniqueIdentifier>{33173185-40c4-4750-b386-0ee093eda958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\3-mapper\3-timer">
+      <UniqueIdentifier>{4ba3cba5-93bb-42b3-8a61-90f74003512b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\3-mapper\4-gui_screen">
+      <UniqueIdentifier>{ab2616c2-cacd-4e66-b06b-9686d27f684f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\3-mapper\5-render_manager">
+      <UniqueIdentifier>{2f851fd3-0109-44a5-9129-8bda271552b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\3-mapper\6-world">
+      <UniqueIdentifier>{b15735ce-06aa-44c6-aaf2-2e5a968e9e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\3-mapper\7-player">
+      <UniqueIdentifier>{2475b08d-d586-4739-a5c6-2d0cfd956689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\3-mapper\8-axis_aligned_bb">
+      <UniqueIdentifier>{87d3ffa0-95c0-4dfd-a1b7-92ef06cfba2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\3-mapper\9-moving_object_position">
+      <UniqueIdentifier>{1adb577d-fe80-4037-8a76-922dcd7feded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\3-mapper\12-vec3">
+      <UniqueIdentifier>{5d4582c0-a6eb-4ab1-afb1-f33819726ca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\3-mapper\11-item">
+      <UniqueIdentifier>{a73a62e9-c45b-4db2-8d98-020707e79b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\3-mapper\10-item_stack">
+      <UniqueIdentifier>{aac78d6b-f15d-4572-bf1a-c91004ef5ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\1-hooks">
+      <UniqueIdentifier>{dbcf11da-1d90-4be4-a3ac-a6c2f753d9e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\1-hooks\2-clear">
+      <UniqueIdentifier>{b101af83-8abb-4a14-b64a-4a7082f77560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\1-hooks\1-get_time">
+      <UniqueIdentifier>{6d76f59e-8a81-46c0-81ee-cb0fbd28a6b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\1-hooks\3-atan_2">
+      <UniqueIdentifier>{5871d395-955d-42f1-8467-bc8cde3327fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\1-hooks\4-rotate">
+      <UniqueIdentifier>{00097c57-3781-4865-9b5a-54ea3812b48a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\1-hooks\5-swap_buffers">
+      <UniqueIdentifier>{6f99cb9a-72a9-45cd-b000-835f22f75450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\1-hooks\6-send">
+      <UniqueIdentifier>{2278f0cc-9ff3-4519-86c0-ecbbd52f8ab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="front\1-hooks\7-recv">
+      <UniqueIdentifier>{56e50403-021f-4612-90cd-016e52293ea2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="back\sdk.hpp">
+      <Filter>back</Filter>
+    </ClInclude>
+    <ClInclude Include="back\misc\include.hpp">
+      <Filter>back\1-misc</Filter>
+    </ClInclude>
+    <ClInclude Include="back\misc\sha\sha.hpp">
+      <Filter>back\1-misc\2-sha</Filter>
+    </ClInclude>
+    <ClInclude Include="back\misc\xor\xor.hpp">
+      <Filter>back\1-misc\1-xor</Filter>
+    </ClInclude>
+    <ClInclude Include="back\misc\minhook\include\MinHook.h">
+      <Filter>back\1-misc\4-minhook\1-include</Filter>
+    </ClInclude>
+    <ClInclude Include="back\misc\minhook\src\hde\hde32.h">
+      <Filter>back\1-misc\4-minhook\2-src\1-hde</Filter>
+    </ClInclude>
+    <ClInclude Include="back\misc\minhook\src\hde\hde64.h">
+      <Filter>back\1-misc\4-minhook\2-src\1-hde</Filter>
+    </ClInclude>
+    <ClInclude Include="back\misc\minhook\src\hde\pstdint.h">
+      <Filter>back\1-misc\4-minhook\2-src\1-hde</Filter>
+    </ClInclude>
+    <ClInclude Include="back\misc\minhook\src\hde\table32.h">
+      <Filter>back\1-misc\4-minhook\2-src\1-hde</Filter>
+    </ClInclude>
+    <ClInclude Include="back\misc\minhook\src\hde\table64.h">
+      <Filter>back\1-misc\4-minhook\2-src\1-hde</Filter>
+    </ClInclude>
+    <ClInclude Include="back\misc\minhook\src\buffer.h">
+      <Filter>back\1-misc\4-minhook\2-src</Filter>
+    </ClInclude>
+    <ClInclude Include="back\misc\minhook\src\trampoline.h">
+      <Filter>back\1-misc\4-minhook\2-src</Filter>
+    </ClInclude>
+    <ClInclude Include="back\misc\imgui\imconfig.h">
+      <Filter>back\1-misc\3-imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="back\misc\imgui\imgui.h">
+      <Filter>back\1-misc\3-imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="back\misc\imgui\imgui_internal.h">
+      <Filter>back\1-misc\3-imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="back\misc\imgui\imstb_rectpack.h">
+      <Filter>back\1-misc\3-imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="back\misc\imgui\imstb_textedit.h">
+      <Filter>back\1-misc\3-imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="back\misc\imgui\imstb_truetype.h">
+      <Filter>back\1-misc\3-imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="back\misc\imgui\backends\imgui_impl_win32.h">
+      <Filter>back\1-misc\3-imgui\1-backends</Filter>
+    </ClInclude>
+    <ClInclude Include="back\misc\imgui\fonts\verdana.hpp">
+      <Filter>back\1-misc\3-imgui\2-fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="back\misc\imgui\backends\imgui_impl_opengl3.h">
+      <Filter>back\1-misc\3-imgui\1-backends</Filter>
+    </ClInclude>
+    <ClInclude Include="back\misc\imgui\backends\imgui_impl_opengl3_loader.h">
+      <Filter>back\1-misc\3-imgui\1-backends</Filter>
+    </ClInclude>
+    <ClInclude Include="front\features\features.hpp">
+      <Filter>front\2-features</Filter>
+    </ClInclude>
+    <ClInclude Include="front\mapper\mapper.hpp">
+      <Filter>front\3-mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="front\client.hpp">
+      <Filter>front</Filter>
+    </ClInclude>
+    <ClInclude Include="front\hooks\hooks.hpp">
+      <Filter>front\1-hooks</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
