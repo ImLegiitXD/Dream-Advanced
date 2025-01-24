@@ -46,6 +46,7 @@ auto client::features::visual::array_list::run(client::mapper::__minecraft& mine
 		{ "Reach",				&client::features::combat::reach::enabled,			.2f	},
 		{ "Speed",				&client::features::util::speed::enabled,			.2f	},
 		{ "Velocity",			&client::features::combat::velocity::enabled,		.4f	},
+		{ "Auto Jump",			&client::features::combat::auto_jump::enabled,		.4f	},
 		{ "Fake Lag",			&client::features::combat::fake_lag::enabled,		.4f	},
 		{ "Block Esp",			&client::features::visual::block_esp::enabled,		.7f	},
 		{ "Nametags",			&client::features::visual::nametags::enabled,		.8f	},

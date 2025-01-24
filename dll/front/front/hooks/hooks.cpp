@@ -1,4 +1,3 @@
-
 #include "hooks.hpp"
 
 auto client::hooks::initialize() -> __int32
@@ -7,8 +6,8 @@ auto client::hooks::initialize() -> __int32
 
 	auto window = sdk::nt_user_find_window_ex(&us_0, &us_1);
 
-	//if (window == nullptr)
-	//	REPORT_EXIT_RETURN(1);
+	if (window == nullptr)
+		REPORT_EXIT_RETURN(1);
 
 	if (ImGui::CreateContext() == nullptr)
 		REPORT_EXIT_RETURN(1);

@@ -145,7 +145,7 @@ auto client::core::menu::initialize() -> __int32
 			if (main_category_selector.index == 0)
 			{
 				static auto sub_category_selector = imgui::__category_selector(XOR("SUB"),
-					{ { XOR("AUTO CLICK"), 0.f }, { XOR("AIM ASSIST"), 0.f }, { XOR("REACH"), 0.f }, { XOR("VELOCITY"), 0.f }, { XOR("JUMP RESET"), 0.f }, { XOR("FAKE LAG"), 0.f }, { XOR("BACKTRACK"), 0.f }, { XOR("WEAPONS"), 0.f } });
+					{ { XOR("AUTO CLICK"), 0.f }, { XOR("AIM ASSIST"), 0.f }, { XOR("REACH"), 0.f }, { XOR("VELOCITY"), 0.f }, { XOR("AUTO JUMP"), 0.f }, { XOR("FAKE LAG"), 0.f }, { XOR("BACKTRACK"), 0.f }, { XOR("WEAPONS"), 0.f } });
 
 				imgui::category_selector(sub_category_selector, { 0.f, 85.f }, { 150.f, 615.f }, { 150.f, 45.f }, 1);
 
@@ -211,7 +211,7 @@ auto client::core::menu::initialize() -> __int32
 
 						static auto slider_2 = imgui::__slider(XOR("SPEED"), (double*)client::core::ipc::get_setting_address(XOR("client::features::combat::aim_assist::speed")));
 
-						imgui::slider(slider_2, 10., 100.);
+                        imgui::slider(slider_2, 10., 100.);
 
 						imgui::spacing();
 
